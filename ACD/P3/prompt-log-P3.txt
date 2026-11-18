@@ -1,0 +1,13 @@
+1.) Assignment specification, along with grammar of TACoJava and TACoJava2 given. Implement the required. My idea - do one parse to go over all the caller sites, if any function is not called, drop it completely. Then first do intraprocedural constant propagation, then deadcode elimination, then intraprocedural constant propagation then go over the whole code to drop any dead code.
+Make sure any side effects related functions or classes are carefully handled. Side effects -> new ie memory allocation, print statements, writing to global variables, array related, write to fields.
+
+2.) Gave testcases, compared my output to expected output, explained why that testcase could be failing, asked to correct that part of the code. 
+Tested against almost 35-40 testcases. Checked where my output is not working against the expected. Explained that and askd fr correction.
+
+3.) Parser/output compliance check. Verify my emitted TACoJava2 output is syntactically valid and preserves required formatting. If needed, patch emitter logic so output can be re-parsed reliably.
+
+4.) Some hidden testcases are failing. Just check why. Like are there any cases I am missing out.
+
+5.) Rechecked all testcases, repeated the same until all the testcases I have are passing... 
+
+6.) Clean up the code. Remove any part of the code that is not being reached and any unnecessary functions.
