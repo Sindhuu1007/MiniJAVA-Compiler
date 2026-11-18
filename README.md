@@ -66,9 +66,3 @@ Navigate to the assignment folder of interest. Build and execution instructions 
 
 - This repository contains independent coursework assignments, not a single unified compiler executable.
 - Some generated parser and AST files are included in the repository.
-
-## Author
-
-**Sindhu**
-
-[Repository](https://github.com/Sindhuu1007/MiniJAVA-Compiler)
