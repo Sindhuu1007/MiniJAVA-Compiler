@@ -1,0 +1,12 @@
+1.) Assignment specification, along with grammar of FunkyTACoJava. Implement the required. Idea - Use visitors to check the statement type. For function calls, Do the inlining. Strictly extend visitor methods and do. Dont do node wise analysis.
+
+2.) Gave testcases, compared my output to expected output, explained why that testcase could be failing, asked to correct that part of the code. 
+Tested against almost 35-40 testcases. Checked where my output is not working against the expected. Explained that and askd fr correction.
+
+3.) Parser/output compliance check. Verify my emittedoutput is syntactically valid and preserves required formatting. If needed, patch emitter logic so output can be re-parsed reliably.
+
+4.) Some hidden testcases are failing. Just check why. Like are there any cases I am missing out.
+
+5.) Rechecked all testcases, repeated the same until all the testcases I have are passing... 
+
+6.) Clean up the code. Remove any part of the code that is not being reached and any unnecessary functions.
